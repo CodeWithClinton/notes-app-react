@@ -11,8 +11,8 @@ const App = () => {
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route index element={<HomePage />} />
-      <Route path="/add-notes" element={<AddNotes />} />
-      <Route path="/notes-detail" element={<NotePage />} />
+      <Route path="add-notes" element={<AddNotes />} />
+      <Route path="notes-detail" element={<NotePage />} />
     </Route>
   ))
 
